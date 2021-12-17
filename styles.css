@@ -1,0 +1,46 @@
+.buttons {
+  display: flex;
+  max-width: 400px;
+  flex-wrap: wrap;
+}
+
+button {
+  flex: 1 25%;
+  height: 100px;
+  background-color: #202129;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  border: 0px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+.btn-number {
+  color: white;
+}
+
+.btn-operator, .btn-equal, .btn-clear {
+  color: #8a8da6;
+}
+
+
+.display {
+  max-width: 400px;
+  height: 140px;
+  background-color: #e9eef5;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.display-text {
+  text-align: right;
+  padding: 35px 20px 20px 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 52px;
+}
+
+.container {
+}
